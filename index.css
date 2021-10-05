@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+
+.provenjewstext {
+    color: white;
+    font-family: 'Smythe', cursive;
+    position: relative;
+    top: 40%;
+    left: 44%;
+    font-size: 400%;
+}
+@media (max-width: 4px) {
+    .provenjewstext {
+        font-size: 3px;
+    }
+}
