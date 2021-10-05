@@ -16,7 +16,7 @@ body {
     height: 100vh;
     overflow: hidden;
     width: 100vw;
-    background-image: url("/public/jew.jpg");
+    background-image: url("https://raw.githubusercontent.com/Eitantid/ProvenJews/main/public/jew.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-color:rgba(0, 0, 0, 30);
