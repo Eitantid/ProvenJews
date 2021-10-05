@@ -4,15 +4,24 @@
     --items: 4; /* Number of items you have */
     --item-width: calc(var(--menu-width) / var(--items));
 }
-
+* {
+    box-sizing: border-box;
+}
 body {
+
+    background-color: black;
     margin: 0;
     padding: 0;
-    background: black;
     font-family: 'Montserrat', sans-serif;
     height: 100vh;
     overflow: hidden;
     width: 100vw;
+    background-image: url("/public/jew.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:rgba(0, 0, 0, 30);
+    background-blend-mode: luminosity;
+
 }
 
 nav {
